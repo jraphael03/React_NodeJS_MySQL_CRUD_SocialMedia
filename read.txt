@@ -1,0 +1,9 @@
+CLIENT
+npx create-react-app .
+npm install react-router-dom
+
+
+SERVER
+npm init -y
+
+
