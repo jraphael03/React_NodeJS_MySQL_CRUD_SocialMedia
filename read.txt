@@ -5,5 +5,5 @@ npm install react-router-dom
 
 SERVER
 npm init -y
-
+npm install mysql
 
