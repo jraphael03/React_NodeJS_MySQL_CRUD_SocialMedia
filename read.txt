@@ -1,9 +1,15 @@
 CLIENT
 npx create-react-app .
 npm install react-router-dom
+npm install axios
+npm install cloudinary-react
+npm install @material-ui/icons
 
 
 SERVER
 npm init -y
 npm install mysql
+npm install nodemon
+npm install cors
+
 

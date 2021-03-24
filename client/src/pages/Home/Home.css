@@ -1,0 +1,64 @@
+.home{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home .post{
+    width: 600px;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .2);
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.home .post .image{
+    flex: 70%;      /* Take up 70% of the block */
+    padding: 10px;
+}
+
+.home .post .image img{
+    width: 100%;
+}
+
+.home .post .content{
+    flex: 30%;      /* Take up 30% of the block */
+    display: flex;
+    flex-direction: column;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.home .post .content .title{
+    flex: 30%;
+    text-align: center;
+}
+
+.home .post .content .description{
+    flex: 50%;
+    text-align: center;
+}
+
+.home .post .engagement{
+    flex: 20%;
+    display: grid;
+    place-items: center;
+}
+
+.home .post .engagement #likeButton{
+    font-size: 40px; 
+    color: grey;
+}
+
+.home .post .engagement #likeButton:hover{
+    cursor: pointer;
+}
+
+.home .post .engagement #likeButton:active{
+    color: black;
+}
